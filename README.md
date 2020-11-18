@@ -34,6 +34,7 @@ export default {
   },
 };
 ```
+If you're looking for more details about the various plugin points take a look at this page of [the camunda docs](https://docs.camunda.org/manual/latest/webapps/cockpit/extend/plugins/)
 
 while the ``config.js`` will tell cockpit where to find the file. 
 
@@ -64,7 +65,7 @@ The second part involves adding some functionality specifically the ability for 
 
 ## Step Three: Start the process instance
 
-In this step we remove the console loging we did before and replace it with a rest call. 
+In this step we remove the console loging we did before and replace it with a rest call. The rest call is detailed in the [Camunda Docs](https://docs.camunda.org/manual/latest/reference/rest/process-definition/post-start-process-instance/). 
 
 ```JavaScript
       node.onclick = function() {
