@@ -1,5 +1,5 @@
 # Camunda Cockpit Plugin Tutorial
-This project is used to create a plugin that lets you start a process instance from Camunda Cockpit. It does this through the Cockpit Plugin system. This examples is used as part of the Camunda Cockpit Plugin tutorial video.
+This project is used to create a plugin that lets you start a process instance from Camunda Cockpit. It does this through the Cockpit Plugin system. This examples is used as part of the Camunda Cockpit Plugin tutorial video. If you've like to expore all the posible endpoints you can [check out the docs](https://docs.camunda.org/manual/latest/webapps/cockpit/extend/plugins/)
 
 
 ## Step Zero - Download the Requirements
